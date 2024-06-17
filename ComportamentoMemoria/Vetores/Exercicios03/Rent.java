@@ -1,16 +1,17 @@
 package javaudemy.ComportamentoMemoria.Vetores.Exercicios03;
 
-public class Rooms {
+public class Rent {
     private String name;
     private String email;
-    private int room;
 
     // Construtor
 
-    public Rooms(String name, String email, int room){
+    public Rent() {
+    }
+
+    public Rent(String name, String email){
         this.name = name;
         this.email = email;
-        this.room = room;
     } 
 
     // Metodos de acesso
@@ -31,13 +32,9 @@ public class Rooms {
         this.email = email;
     }
 
-    public int getRoom(){
-        return room;
+    @Override
+    public String toString(){
+        return name + ", " + email;
     }
-
-    public void setRoom(int room){
-        this.room = room;
-    }
-
     
 }
