@@ -72,7 +72,6 @@ public class Post {
 
     public String toString(){
         StringBuilder sb = new StringBuilder();
-
         sb.append(title + "\n");
         sb.append(likes);
         sb.append(likes);
