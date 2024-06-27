@@ -1,4 +1,4 @@
-package javaudemy.HerancaEPolimorfismo.ExercicioFixacao;
+package javaudemy.HerancaEPolimorfismo.ExercicioFixacao001;
 
 public class Product {
     protected String name;

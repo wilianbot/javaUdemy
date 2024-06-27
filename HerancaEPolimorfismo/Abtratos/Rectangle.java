@@ -5,6 +5,7 @@ public class Rectangle extends Shape{
     private Double height;
 
     public Rectangle(){
+        super();
     }
 
     public Rectangle(Color color, Double width, Double height) {
@@ -27,5 +28,10 @@ public class Rectangle extends Shape{
 
     public void setHeight(Double height) {
         this.height = height;
+    }
+
+    @Override
+    public double area() {
+        return width * height;
     }    
 }
